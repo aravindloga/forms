@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 title="we are learning html css"> form</h1>
     <fieldset><!--which create the box-->
        <legend>Forms</legend><!--caption to field-->
         <form action=""><!--form is way to get input from user-->
@@ -26,19 +27,38 @@
             <input type="checkbox" name="skill" id="2"><label for="2">Java</label>
             <input type="checkbox" name="skill" id=""><label for="3">JavaScript</label><br><br>
             <label for="resume">Resume</label>
-            <input type="file" name="" id="resume"><br><br>
+            <input type="file" name="" id="resume" multiple><br><br>
             <label for="num">Enter your Number</label>
             <input type="tel" name="" id="num" placeholder="Mobile Number"><br><br>
             <label >Country</label>
-            <select name="Country" id="">
+            <select name="Country" id="" >
                 <option value="Country">India</option>
-                <option value="Country">Austrila</option>
+                <option value="Country"  >Austrila</option>
                 <option value="Country">Srilanka</option>
                 <option value="Country">Pakistan</option>
                 <option value="Country">Nepal</option>
+            </select><br><br>
+            <select name="lan" id=""  >
+                <option value="lan" disabled selected>Select Your language</option>
+                <option value="lan" >English</option>
+                <option value="lan">Tamil</option>
+                <option value="lan">Hindi</option>
+                <option value="lan">Telugu</option>
             </select>
+            <br><br>
+            <select name="mul" id="" multiple>
+                <option value="mul" disabled selected>Mutliple option selector</option>
+                <option value="mul">java</option>
+                <option value="mul">Python</option>
+                <option value="mul">JavaScript</option>
+                <option value="mul">Django</option>
+                <option value="mul">Spring</option>
+                <option value="mul"></option>
+            </select><br><br>
             <!-- type="tel" which is used to get number even this done by number but number has the 
              increment and decrement inside input box so we use tel and tel also allow strings -->
+             <label for="feed">FeedBack</label>
+             <textarea name="" id="feed" ></textarea>
         </form>
     </fieldset>
 </body>
